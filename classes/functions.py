@@ -40,7 +40,7 @@ def get_migration_script(obj, filename):
 
     obj["operation_date"] = '2022-01-01'
     migration_string = """
-    INSERT INTO quota_order_number_origins
+    insert into quota_order_number_origins
     (
         quota_order_number_origin_sid,
         quota_order_number_sid,
@@ -52,7 +52,7 @@ def get_migration_script(obj, filename):
         operation_date,
         filename
     )
-    VALUES (
+    values (
         {quota_order_number_origin_sid},
         {quota_order_number_sid},
         '{geographical_area_id}',

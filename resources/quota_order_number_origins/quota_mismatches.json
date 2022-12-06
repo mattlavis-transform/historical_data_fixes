@@ -31,7 +31,7 @@
         ],
         "latest_update_xml": "export-20220715T000000_20220715T235959-20220716T001535",
         "migrations": [
-            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20988, 20919, 'ME', '2021-01-01 00:00:00', null, 348, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20220715T235959.gzip');"
+            "insert into quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) values (20988, 20919, 'ME', '2021-01-01 00:00:00', null, 348, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20220715T235959.gzip');"
         ]
     },
     {
@@ -66,7 +66,7 @@
         ],
         "latest_update_xml": "export-20221202T000000_20221202T235959-20221203T001536",
         "migrations": [
-            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20142, 20142, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20221202T235959.gzip');"
+            "insert into quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) values (20142, 20142, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20221202T235959.gzip');"
         ]
     },
     {
@@ -101,7 +101,7 @@
         ],
         "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
         "migrations": [
-            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20174, 20171, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+            "insert into quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) values (20174, 20171, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
         ]
     },
     {
@@ -136,7 +136,7 @@
         ],
         "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
         "migrations": [
-            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20180, 20176, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+            "insert into quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) values (20180, 20176, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
         ]
     },
     {
@@ -171,7 +171,7 @@
         ],
         "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
         "migrations": [
-            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20186, 20181, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+            "insert into quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) values (20186, 20181, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
         ]
     },
     {
@@ -206,7 +206,7 @@
         ],
         "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
         "migrations": [
-            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20216, 20204, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+            "insert into quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) values (20216, 20204, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
         ]
     },
     {
@@ -241,7 +241,7 @@
         ],
         "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
         "migrations": [
-            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20219, 20207, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+            "insert into quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) values (20219, 20207, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
         ]
     },
     {
@@ -294,8 +294,8 @@
         ],
         "latest_update_xml": "export-20210610T000000_20210610T235959-20210611T200034",
         "migrations": [
-            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20178, 20175, 'EU', '2021-04-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210610T235959.gzip');",
-            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (21027, 20175, '1013', '2021-04-01 00:00:00', null, 349, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210610T235959.gzip');"
+            "insert into quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) values (20178, 20175, 'EU', '2021-04-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210610T235959.gzip');",
+            "insert into quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) values (21027, 20175, '1013', '2021-04-01 00:00:00', null, 349, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210610T235959.gzip');"
         ]
     }
 ]

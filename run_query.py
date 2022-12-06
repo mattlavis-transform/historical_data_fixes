@@ -54,8 +54,8 @@ for filename in files:
 
 # Write the exclusions CSV
 if len(exclusions) > 0:
-    exclusions_csv_path = os.path.join(g.quota_order_number_origins_path, 'exclusions.csv')
-    exclusions_sql_path = os.path.join(g.quota_order_number_origins_path, 'exclusions.sql')
+    exclusions_csv_path = os.path.join(g.quota_order_number_origins_path, 'quota_order_number_origin_exclusions.csv')
+    exclusions_sql_path = os.path.join(g.quota_order_number_origins_path, 'quota_order_number_origin_exclusion_migrations.sql')
     csv_file = open(exclusions_csv_path, 'w')
     sql_file = open(exclusions_sql_path, 'w')
     writer = csv.writer(csv_file)
@@ -178,7 +178,7 @@ if len(dealt_with) > 0:
     with open(quota_mismatches_json_path, 'w') as f:
         json.dump(mismatches, f, indent=4)
 
-quota_mismatches_csv_path = os.path.join(g.quota_order_number_origins_path, 'quota_order_number_origin_migrations.csv')
+quota_mismatches_csv_path = os.path.join(g.quota_order_number_origins_path, 'quota_order_number_origin_migrations.sql')
 f = open(quota_mismatches_csv_path, 'w')
 for migration in all_migrations:
     f.write(migration + "\n")
