@@ -1,5 +1,12 @@
 import re
+import os
+import classes.globals as g
 
+
+def get_paths():
+    g.resource_path = os.path.join(os.getcwd(), "resources")
+    g.quota_order_number_origins_path = os.path.join(g.resource_path, "quota_order_number_origins")
+    a = 1
 
 def date_to_json(d):
     if d is None:
@@ -11,8 +18,6 @@ def get_filename_parts(xml_filename):
     if "/" in xml_filename:
         parts = xml_filename.split("/")
         xml_filename = parts[-1]
-    # tariff_dailyExtract_v1_20221205T235959.gzip
-    # export-20221205T000000_20221205T235959-20221206T001536.xml
     xml_filename = xml_filename.replace("-", "_")
     parts = xml_filename.split("_")
     gzip_filename = "tariff_dailyExtract_v1_{placeholder}.gzip".format(placeholder=parts[2])

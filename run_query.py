@@ -11,7 +11,7 @@ from classes.database import Database
 import classes.functions as func
 import classes.globals as g
 
-
+func.get_paths()
 # Get countries
 d = Database()
 sql = "select geographical_area_id, description from utils.geographical_areas ga order by 1;"
@@ -54,8 +54,10 @@ for filename in files:
 
 # Write the exclusions CSV
 if len(exclusions) > 0:
-    csv_file = open('exclusions.csv', 'w')
-    sql_file = open('exclusions.sql', 'w')
+    exclusions_csv_path = os.path.join(g.quota_order_number_origins_path, 'exclusions.csv')
+    exclusions_sql_path = os.path.join(g.quota_order_number_origins_path, 'exclusions.sql')
+    csv_file = open(exclusions_csv_path, 'w')
+    sql_file = open(exclusions_sql_path, 'w')
     writer = csv.writer(csv_file)
     writer.writerow(['quota_order_number_id', 'quota_order_number_sid', 'quota_order_number_origin_sid', 'hjid', 'excluded_geographical_area_sid', 'excluded_geographical_area_id', 'country', 'filename', 'operation_date'])
     for exclusion in exclusions:
@@ -78,14 +80,15 @@ if len(exclusions) > 0:
     csv_file.close()
     sql_file.close()
 
-sys.exit()
-
 records = sorted(records, key=lambda x: x["transaction_date"], reverse=True)
 records = sorted(records, key=lambda x: x["quota_order_number_id"], reverse=False)
-with open('data.json', 'w') as f:
+
+json_path = os.path.join(g.quota_order_number_origins_path, 'data.json')
+with open(json_path, 'w') as f:
     json.dump(records, f, indent=4)
 
-f = open('data.csv', 'w')
+csv_path = os.path.join(g.quota_order_number_origins_path, 'data.csv')
+f = open(csv_path, 'w')
 for record in records:
     origins = []
     for quota_order_number_origin in record["quota_order_number_origins"]:
@@ -102,8 +105,6 @@ all_migrations = []
 for record in records:
     quota_order_number_sid = record["quota_order_number_sid"]
     if quota_order_number_sid not in dealt_with:
-        if quota_order_number_sid == 21006:
-            a = 1
         # Get the quota order number origin exclusions for this quota
         d = Database()
         sql = """
@@ -173,9 +174,11 @@ for record in records:
     dealt_with.append(quota_order_number_sid)
 
 if len(dealt_with) > 0:
-    with open('quota_mismatches.json', 'w') as f:
+    quota_mismatches_json_path = os.path.join(g.quota_order_number_origins_path, 'quota_mismatches.json')
+    with open(quota_mismatches_json_path, 'w') as f:
         json.dump(mismatches, f, indent=4)
 
-f = open('quota_order_number_origin_migrations.csv', 'w')
+quota_mismatches_csv_path = os.path.join(g.quota_order_number_origins_path, 'quota_order_number_origin_migrations.csv')
+f = open(quota_mismatches_csv_path, 'w')
 for migration in all_migrations:
     f.write(migration + "\n")

@@ -1,0 +1,301 @@
+[
+    {
+        "quota_order_number_sid": 20919,
+        "quota_order_number_id": "051534",
+        "database_origins": [
+            {
+                "geographical_area_id": "ME",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 20988,
+                "quota_order_number_sid": 20919,
+                "geographical_area_sid": 348,
+                "filename": "tariff_dailyExtract_v1_20220715T235959.gzip",
+                "operation_date": "2022-01-01"
+            },
+            {
+                "geographical_area_id": "XS",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 21123,
+                "quota_order_number_sid": 20919,
+                "geographical_area_sid": 346
+            }
+        ],
+        "file_origins": [
+            {
+                "geographical_area_id": "XS",
+                "validity_start_date": "2005-06-01T00:00:00",
+                "validity_end_date": ""
+            }
+        ],
+        "latest_update_xml": "export-20220715T000000_20220715T235959-20220716T001535",
+        "migrations": [
+            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20988, 20919, 'ME', '2021-01-01 00:00:00', null, 348, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20220715T235959.gzip');"
+        ]
+    },
+    {
+        "quota_order_number_sid": 20142,
+        "quota_order_number_id": "058001",
+        "database_origins": [
+            {
+                "geographical_area_id": "EU",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 20142,
+                "quota_order_number_sid": 20142,
+                "geographical_area_sid": 169,
+                "filename": "tariff_dailyExtract_v1_20221202T235959.gzip",
+                "operation_date": "2022-01-01"
+            },
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 21003,
+                "quota_order_number_sid": 20142,
+                "geographical_area_sid": 349
+            }
+        ],
+        "file_origins": [
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2007-07-01T00:00:00",
+                "validity_end_date": ""
+            }
+        ],
+        "latest_update_xml": "export-20221202T000000_20221202T235959-20221203T001536",
+        "migrations": [
+            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20142, 20142, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20221202T235959.gzip');"
+        ]
+    },
+    {
+        "quota_order_number_sid": 20171,
+        "quota_order_number_id": "058012",
+        "database_origins": [
+            {
+                "geographical_area_id": "EU",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 20174,
+                "quota_order_number_sid": 20171,
+                "geographical_area_sid": 169,
+                "filename": "tariff_dailyExtract_v1_20210701T235959.gzip",
+                "operation_date": "2022-01-01"
+            },
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 21008,
+                "quota_order_number_sid": 20171,
+                "geographical_area_sid": 349
+            }
+        ],
+        "file_origins": [
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2007-07-01T00:00:00",
+                "validity_end_date": ""
+            }
+        ],
+        "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
+        "migrations": [
+            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20174, 20171, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+        ]
+    },
+    {
+        "quota_order_number_sid": 20176,
+        "quota_order_number_id": "058014",
+        "database_origins": [
+            {
+                "geographical_area_id": "EU",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 20180,
+                "quota_order_number_sid": 20176,
+                "geographical_area_sid": 169,
+                "filename": "tariff_dailyExtract_v1_20210701T235959.gzip",
+                "operation_date": "2022-01-01"
+            },
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 21009,
+                "quota_order_number_sid": 20176,
+                "geographical_area_sid": 349
+            }
+        ],
+        "file_origins": [
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2007-07-01T00:00:00",
+                "validity_end_date": ""
+            }
+        ],
+        "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
+        "migrations": [
+            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20180, 20176, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+        ]
+    },
+    {
+        "quota_order_number_sid": 20181,
+        "quota_order_number_id": "058016",
+        "database_origins": [
+            {
+                "geographical_area_id": "EU",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 20186,
+                "quota_order_number_sid": 20181,
+                "geographical_area_sid": 169,
+                "filename": "tariff_dailyExtract_v1_20210701T235959.gzip",
+                "operation_date": "2022-01-01"
+            },
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 21010,
+                "quota_order_number_sid": 20181,
+                "geographical_area_sid": 349
+            }
+        ],
+        "file_origins": [
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2007-07-01T00:00:00",
+                "validity_end_date": ""
+            }
+        ],
+        "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
+        "migrations": [
+            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20186, 20181, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+        ]
+    },
+    {
+        "quota_order_number_sid": 20204,
+        "quota_order_number_id": "058026",
+        "database_origins": [
+            {
+                "geographical_area_id": "EU",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 20216,
+                "quota_order_number_sid": 20204,
+                "geographical_area_sid": 169,
+                "filename": "tariff_dailyExtract_v1_20210701T235959.gzip",
+                "operation_date": "2022-01-01"
+            },
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 21014,
+                "quota_order_number_sid": 20204,
+                "geographical_area_sid": 349
+            }
+        ],
+        "file_origins": [
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2007-07-01T00:00:00",
+                "validity_end_date": ""
+            }
+        ],
+        "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
+        "migrations": [
+            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20216, 20204, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+        ]
+    },
+    {
+        "quota_order_number_sid": 20207,
+        "quota_order_number_id": "058028",
+        "database_origins": [
+            {
+                "geographical_area_id": "EU",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 20219,
+                "quota_order_number_sid": 20207,
+                "geographical_area_sid": 169,
+                "filename": "tariff_dailyExtract_v1_20210701T235959.gzip",
+                "operation_date": "2022-01-01"
+            },
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2021-01-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 21015,
+                "quota_order_number_sid": 20207,
+                "geographical_area_sid": 349
+            }
+        ],
+        "file_origins": [
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2007-07-01T00:00:00",
+                "validity_end_date": ""
+            }
+        ],
+        "latest_update_xml": "export-20210701T000000_20210701T235959-20210702T001534",
+        "migrations": [
+            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20219, 20207, 'EU', '2021-01-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210701T235959.gzip');"
+        ]
+    },
+    {
+        "quota_order_number_sid": 20175,
+        "quota_order_number_id": "058072",
+        "database_origins": [
+            {
+                "geographical_area_id": "EU",
+                "validity_start_date": "2021-04-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 20178,
+                "quota_order_number_sid": 20175,
+                "geographical_area_sid": 169,
+                "filename": "tariff_dailyExtract_v1_20210610T235959.gzip",
+                "operation_date": "2022-01-01"
+            },
+            {
+                "geographical_area_id": "CN",
+                "validity_start_date": "2021-04-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 20179,
+                "quota_order_number_sid": 20175,
+                "geographical_area_sid": 439
+            },
+            {
+                "geographical_area_id": "1013",
+                "validity_start_date": "2021-04-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 21027,
+                "quota_order_number_sid": 20175,
+                "geographical_area_sid": 349,
+                "filename": "tariff_dailyExtract_v1_20210610T235959.gzip",
+                "operation_date": "2022-01-01"
+            },
+            {
+                "geographical_area_id": "CN",
+                "validity_start_date": "2021-04-01 00:00:00",
+                "validity_end_date": null,
+                "quota_order_number_origin_sid": 21056,
+                "quota_order_number_sid": 20175,
+                "geographical_area_sid": 439
+            }
+        ],
+        "file_origins": [
+            {
+                "geographical_area_id": "CN",
+                "validity_start_date": "1984-01-01T00:00:00",
+                "validity_end_date": ""
+            }
+        ],
+        "latest_update_xml": "export-20210610T000000_20210610T235959-20210611T200034",
+        "migrations": [
+            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (20178, 20175, 'EU', '2021-04-01 00:00:00', null, 169, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210610T235959.gzip');",
+            "INSERT INTO quota_order_number_origins (quota_order_number_origin_sid, quota_order_number_sid, geographical_area_id, validity_start_date, validity_end_date, geographical_area_sid, operation, operation_date, filename) VALUES (21027, 20175, '1013', '2021-04-01 00:00:00', null, 349, 'D', '2022-01-01', 'tariff_dailyExtract_v1_20210610T235959.gzip');"
+        ]
+    }
+]
